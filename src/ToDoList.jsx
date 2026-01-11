@@ -1,4 +1,3 @@
-import { element } from "prop-types";
 import React, {useState} from "react";
 function ToDoList(){
     const [tasks, setTasks] = useState(["Eat breakfast", "Gym", "Jaywalk"]);
